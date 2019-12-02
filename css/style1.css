@@ -1,8 +1,77 @@
 
-div{
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+body{
+    background-image: url('background.jpg');
 }
+div{
+ 
+    background-color: rgba(224, 224, 228, 0.753);
+    padding: 50px;
+    margin: auto;
+    margin-left:210px;
+    width: 70%;
+    height:  auto;
+    position: absolute;
+    filter: alpha(opacity=60);
+}
+.box{
+    opacity: 1;
+    margin-top: 90px;
+    background-color: lightgrey;
+    padding:  0px;
+    margin-left: 250 px;
+    width: 50%;
+}
+.box2{
+    margin-top: 90px;
+    background-color: rgba(21, 112, 21, 0.5);
+    padding:  0px;
+    margin-left: 3000 px;
+    width: 50%;
+}
+p.head{
+    text-align: center;
+    font-size:30px;
+    margin-top: 1px;
+    font-family: "Ariel";
+    font-weight: bold;
+}
+
+p.head2{
+    text-align: center ;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: "Ariel";
+    font-weight: bold;
+}
+.imga {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 300px;
+    width: 350px;
+    margin-top: 50px;
+    float: right;
+  }
+
+  .imga1{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 300px;
+    width: 350px;
+    margin-top: 90px;
+    float: right;
+  }
+
+  .text{
+    list-style-type: square;
+    font-size: 20px;
+    font-family: "Ariel";
+    
+  }
+  .title1{
+    list-style-type: square;
+    font-size: 30px;
+    font-family: "Ariel";
+    font-weight: bold;
+  }
