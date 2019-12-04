@@ -1,6 +1,8 @@
 
 body{
-    background-image: url('background.jpg');
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");     
+  background-repeat: no-repeat;
+  height: 100%;
 }
 div{
  
@@ -12,6 +14,7 @@ div{
     height:  auto;
     position: absolute;
     filter: alpha(opacity=60);
+    
 }
 .box{
     opacity: 1;
@@ -28,7 +31,7 @@ div{
     margin-left: 3000 px;
     width: 50%;
 }
-p.head{
+h2.head{
     text-align: center;
     font-size:30px;
     margin-top: 1px;
@@ -36,7 +39,7 @@ p.head{
     font-weight: bold;
 }
 
-p.head2{
+h1.head2{
     text-align: center ;
     font-size: 50px;
     margin-top: 0px;
@@ -67,6 +70,7 @@ p.head2{
     list-style-type: square;
     font-size: 20px;
     font-family: "Ariel";
+    text-align: center;
     
   }
   .title1{
@@ -74,4 +78,5 @@ p.head2{
     font-size: 30px;
     font-family: "Ariel";
     font-weight: bold;
+    text-align: center;
   }

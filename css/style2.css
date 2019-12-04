@@ -1,0 +1,96 @@
+body{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");     
+    background-repeat: no-repeat;
+    height: 100%;
+    }
+div{
+ 
+    background-color: rgba(224, 224, 228, 0.753);
+    padding: 50px;
+    margin: auto;
+    margin-left:300px;
+    width: 50%;
+    height:  auto;
+    position: absolute;
+    filter: alpha(opacity=60);
+    border-style: solid;
+}
+h1.head{
+    text-align: center ;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: "Ariel";
+    font-weight: bold;
+}
+b.text{
+    padding: 12px 12px 12px ;
+    display: inline-block;
+    margin-left: 10px;
+}
+input.label1{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 50px;
+    
+}
+input.label2{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 53px;
+    
+}
+input.label3{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 87px;
+    
+}
+input.label4{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 25px;
+    
+}
+input.radio_btn{
+  
+    width: 12%;
+    margin-left: 50px;
+    
+}
+input.check_box{
+    width: 12%;
+    margin-left:0px;
+}
+input.check_box2{
+    width: 12%;
+    margin-left: 169px;
+}
+textarea.text_area{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+input.btn{
+    
+    width: 20%;
+    padding: 4px;
+    margin-left: 120px;
+    font-family: "Ariel";
+    font-weight: bold;
+}

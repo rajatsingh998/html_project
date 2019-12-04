@@ -1,0 +1,19 @@
+div.form-style{
+    background-color: rgba(224, 224, 228, 0.753);
+    padding: 50px;
+   
+    margin-left: 0px;
+    width: 20%;
+    height: 300px;
+}
+#solution{
+    
+    position: fixed;
+    top: 10;
+    left: 10;
+    width: 368;
+    height: 60px;
+    background-color: white;
+   
+    
+}
