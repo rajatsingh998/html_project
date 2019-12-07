@@ -16,21 +16,8 @@ div{
     filter: alpha(opacity=60);
     
 }
-.box{
-    opacity: 1;
-    margin-top: 90px;
-    background-color: lightgrey;
-    padding:  0px;
-    margin-left: 250 px;
-    width: 50%;
-}
-.box2{
-    margin-top: 90px;
-    background-color: rgba(21, 112, 21, 0.5);
-    padding:  0px;
-    margin-left: 3000 px;
-    width: 50%;
-}
+
+
 h2.head{
     text-align: center;
     font-size:30px;
@@ -51,8 +38,8 @@ h1.head2{
     border-radius: 4px;
     padding: 5px;
     height: 300px;
-    width: 350px;
-    margin-top: 50px;
+    width: 40%;
+    margin-top:5%;
     float: right;
   }
 
@@ -61,8 +48,8 @@ h1.head2{
     border-radius: 4px;
     padding: 5px;
     height: 300px;
-    width: 350px;
-    margin-top: 90px;
+    width: 40%;
+    margin-top: 8%;
     float: right;
   }
 
@@ -72,6 +59,13 @@ h1.head2{
     font-family: "Ariel";
     text-align: center;
     
+  }
+  .text1{
+    list-style-type: square;
+    font-size: 20px;
+    font-family: "Ariel";
+    
+
   }
   .title1{
     list-style-type: square;

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <link href="css/weather_ajax.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Cart</title>
+    <script src="weather_ajax.js">
+
+        </script>
+</head>
+<body>
+        <article>
+<div class="back-ground">
+                <h1 class="head2"> Weather System </h1> 
+                <hr>
+        <table id="tab">
+                <tr>
+       <br><br> <th id="container-1"><b class="text">City</b></th>
+        <th><input  id="name" class="label1" placeholder="Enter City Name" ></th>
+                </tr>
+                </table>
+                <br><br>
+        <input type="button" value="Get Result" id="details" onclick="loadTemp()">
+        <br><br>
+        <br>
+        <span id="error-message"></span>
+        <p id="solution"></p>
+        <div id="table2">
+        <table id="containers"  >
+                        <tr>
+                            <th>Temprature (C)</th>
+                            <th>Pressure (hPA)</th>
+                            <th>Humidity</th>
+                            
+                          
+                       </tr>
+                       <tr>
+                               <th id="Temprature_val"> </th>
+                               <th id="Pressure_val"> </th>
+                               <th id= "Humidity_val"> </th>
+                               
+                        </tr>
+
+                        </table>
+                        </div>
+</div>
+</article>
+</body>
+</html>

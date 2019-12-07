@@ -4,11 +4,20 @@ function add_element(){
     let amount=document.getElementById("amount");
     let tableid=document.getElementById("containers");
     
+    if(name.value.length<1 || unit.value.length<1 || amount.value.length<1){
+        alert("Enter All Input");
+        return false;
+
+    }
+    if(unit.value<1 || amount.value<1){
+        alert("Enter positive input");
+        return false;
+    }
     let rowcount=tableid.rows.length;
     var row= tableid.insertRow(rowcount); 
     
-    var total_unit=parseInt( document.getElementById("unit").value);
-    var amount_of_one_unit=parseInt (document.getElementById("amount").value);
+    var total_unit=parseFloat( document.getElementById("unit").value);
+    var amount_of_one_unit=parseFloat(document.getElementById("amount").value);
     var total_amount=total_unit*amount_of_one_unit;
     var total_amount=total_amount.toString();
     
@@ -40,14 +49,24 @@ function editRow(obj){
 function changeRow(obj){
     
     var index = obj.parentNode.parentNode.rowIndex;
-    
     var table = document.getElementById("containers");
+    alert(table.rows[index].cells[0].length);
+    // if(table.rows[index].cells[0].length<1 || table.rows[index].cells[1].length<1 || table.rows[index].cells[2].length<1){
+    //     alert("Enter All Input");
+    //     return false;
+
+    // }
+    // if( table.rows[index].cells[1].innerText<1 || table.rows[index].cells[2].innerText<1){
+    //     alert("Enter positive input");
+    //     return false;
+    // }
+    
     table.rows[index].cells[0].contentEditable = false;
     table.rows[index].cells[1].contentEditable=false;
     table.rows[index].cells[2].contentEditable=false;
     table.rows[index].style.backgroundColor="white";
-    let total_unit=parseInt( table.rows[index].cells[1].innerText);
-    var amount_of_one_unit=parseInt ( table.rows[index].cells[2].innerText);
+    let total_unit=parseFloat( table.rows[index].cells[1].innerText);
+    var amount_of_one_unit=parseFloat ( table.rows[index].cells[2].innerText);
      var total_amount=total_unit*amount_of_one_unit;
     var total_amount=total_amount.toString();
 
@@ -81,13 +100,15 @@ function grandTotal(){
     let tableid=document.getElementById("containers");
     let tableid1=document.getElementById("grand_total");
     if(tableid.rows.length==2){
-        sum= parseInt(tableid.rows[1].cells[3].innerHTML);
+        sum= parseFloat(tableid.rows[1].cells[3].innerHTML);
     }
     else{
     for(let i=1;i<tableid.rows.length;i++){
-        sum = sum + parseInt(tableid.rows[i].cells[3].innerHTML);
+        sum = sum + parseFloat(tableid.rows[i].cells[3].innerHTML);
     }
 }
     
     tableid1.rows[0].cells[1].innerHTML=sum;
 }
+
+
